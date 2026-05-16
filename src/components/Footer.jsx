@@ -40,10 +40,10 @@ const Footer = () => {
           transition={{ duration: 0.6, delay: 0.4 }}
           className="flex space-x-6"
         >
-          <a href="https://www.facebook.com" className="hover:text-white"><FaFacebook /></a>
-          <a href="https://www.twitter.com" className="hover:text-white"><FaTwitter /></a>
-          <a href="https://www.linkedin.com" className="hover:text-white"><FaLinkedin /></a>
-          <a href="https://www.instagram.com" className="hover:text-white"><FaInstagram /></a>
+          <a href="https://www.facebook.com" className="hover:text-white">  <FaFacebook className="w-6 h-6 cursor-pointer hover:text-blue-500" /></a>
+          <a href="https://www.twitter.com" className="hover:text-white"> <FaTwitter className="w-6 h-6 cursor-pointer hover:text-sky-400" /></a>
+          <a href="https://www.linkedin.com" className="hover:text-white"><FaLinkedin className="w-6 h-6 cursor-pointer hover:text-blue-700" /></a>
+          <a href="https://www.instagram.com" className="hover:text-white"> <FaInstagram className="w-6 h-6 cursor-pointer hover:text-pink-500" /></a>
         </motion.div>
       </div>
 
