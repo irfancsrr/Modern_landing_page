@@ -10,7 +10,7 @@ const About = () => {
         
         {/* Image */}
         <motion.img
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQz1R8E7AfWhg0cFFYTHvDd9fbLMZV_Fn3Vnw&s"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbZYE5pSjyzvT38Ouna4KkbdTMlAN0H6qBXQ&s"
           alt="About Us"
           initial={{ opacity: 0, x: -50 }}
           animate={{ opacity: 1, x: 0 }}
