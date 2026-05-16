@@ -1,6 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
-import { Facebook, Twitter, Linkedin, Instagram } from "lucide-react";
+// import { FacebookIcon, TwitterIcon, LinkedinIcon, InstagramIcon } from "lucide-react";
+import { FaFacebook, FaTwitter, FaLinkedin, FaInstagram } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -39,10 +40,10 @@ const Footer = () => {
           transition={{ duration: 0.6, delay: 0.4 }}
           className="flex space-x-6"
         >
-          <a href="https://www.facebook.com" className="hover:text-white"><Facebook /></a>
-          <a href="https://www.twitter.com" className="hover:text-white"><Twitter /></a>
-          <a href="https://www.linkedin.com" className="hover:text-white"><Linkedin /></a>
-          <a href="https://www.instagram.com" className="hover:text-white"><Instagram /></a>
+          <a href="https://www.facebook.com" className="hover:text-white"><FaFacebook /></a>
+          <a href="https://www.twitter.com" className="hover:text-white"><FaTwitter /></a>
+          <a href="https://www.linkedin.com" className="hover:text-white"><FaLinkedin /></a>
+          <a href="https://www.instagram.com" className="hover:text-white"><FaInstagram /></a>
         </motion.div>
       </div>
 
